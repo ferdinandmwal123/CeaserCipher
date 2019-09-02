@@ -7,6 +7,10 @@ import java.io.InputStreamReader;
 public class App {
 
     public static void main(String[] args) {
+
+
+
+
         System.out.println("Enter string to be encrypted");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

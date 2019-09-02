@@ -1,4 +1,20 @@
+
 public class CeaserCipher {
+    private String text;
+    private int key;
+
+    public CeaserCipher(String text, int key) {
+        this.text = text;
+        this.key = key;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public int getKey() {
+        return key;
+    }
 
     public static String encrypt(String text, int key){
 
