@@ -25,13 +25,13 @@ public class CeaserCipherTest {
 @Test
 //    Check whether the getter method works for the text
     public void checkForText(){
-    assertEquals(null,ceaserCipher.getText());
+    assertEquals("Ferdinand",ceaserCipher.getText());
 }
 
 @Test
 //    Check whether the getter method works for the key
     public void checkForKey(){
-    assertEquals(null,ceaserCipher.getKey());
+    assertEquals(5,ceaserCipher.getKey());
 }
 
 
