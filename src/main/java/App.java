@@ -23,7 +23,7 @@ public class App {
 
         //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 
-        CeaserCipher ceaserCipher = new CeaserCipher();
+        CeaserCipher ceaserCipher = new CeaserCipher(userString,  key);
         String encryptedResult = ceaserCipher.encrypt(userString,key);
         //
         String decryptedResult = ceaserCipher.decrypt(userString);
