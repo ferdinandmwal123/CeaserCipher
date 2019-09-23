@@ -8,6 +8,12 @@ import static org.junit.Assert.assertTrue;
 public class CeaserCipherTest {
 
     private CeaserCipher ceaserCipher = new CeaserCipher("Ferdinand",5);
+    
+        @Test
+    public void CipherInstantiatesCorrectly(){
+        CeaserCipher ceaserCipher = new CeaserCipher("qwe",4);
+        assertTrue(ceaserCipher instanceof  CeaserCipher);
+    }
 
 
 @Test
